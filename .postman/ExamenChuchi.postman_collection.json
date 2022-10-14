@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "56d3da8d-8284-4640-af9c-542ccbd1b91a",
+		"name": "ExamenChuchi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vehicleName\" : \"volvo\",\r\n\"vehicleType\" : \"bike\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vehicle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
